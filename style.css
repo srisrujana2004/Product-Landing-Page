@@ -1,0 +1,72 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1DB954;
+    color: white;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background: url('images/hero.jpeg') no-repeat center center/cover;
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+}
+
+#hero .btn {
+    background-color: #1DB954;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#features, #pricing, #testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features-container, .pricing-container, .testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature, .pricing-card, .testimonial {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+footer {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
